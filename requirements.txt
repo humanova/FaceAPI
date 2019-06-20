@@ -3,5 +3,5 @@ urllib3==1.25
 requests==2.21.0
 websockets==6.0
 opencv-python==3.4.2
-Flask==1.0.2
+flask==1.0.2
 gunicorn==19.8.1
