@@ -1,3 +1,4 @@
+import os
 import flask
 from flask import request, jsonify
 import json
@@ -55,4 +56,4 @@ def detect_url():
     else:
         return jsonify(dict(success=False))
 
-app.run(host="0.0.0.0", port=5000)
+app.run(host='0.0.0.0', port=os.environ['PORT'])
