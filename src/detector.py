@@ -9,8 +9,8 @@ def detectFace(net, frame, conf_threshold):
     net_frame = frame.copy()
     frameHeight = net_frame.shape[0]
     frameWidth = net_frame.shape[1]
-    blob = cv2.dnn.blobFromImage(net_frame, 1.0, (300, 300), [
-                                 104, 117, 123], False, False)
+    blob = cv2.dnn.blobFromImage(net_frame, 1.0, (300, 300),
+                                [104, 117, 123], False, False)
 
     net.setInput(blob)
     detections = net.forward()
