@@ -16,7 +16,7 @@ Sample JSON POST request to `/api/v1/detect_url`.
 Sample JSON POST request to `/api/v1/detect`.
 ```json
 {
-	"url" : "c2RzZHN...2RzZA==",
+	"img" : "c2RzZHN...2RzZA==",
 	"threshold" : 0.7
 }
 ``` 
@@ -45,7 +45,6 @@ FaceAPI response includes _bboxes of detected faces_, _total number of faces_ an
 }
 ```
 ## API Wrapper Example
----
 
 ### Requesting and printing the response.
 ```python
