@@ -6,8 +6,6 @@ import json
 from imgutils import url2img, decodeb64img
 import detector
 
-os.environ['PORT'] ='5000'
-
 app = flask.Flask(__name__)
 app.config["DEBUG"] = False
 
