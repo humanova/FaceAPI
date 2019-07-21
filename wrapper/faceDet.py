@@ -1,12 +1,13 @@
 # 2019 Emir Erbasan (humanova)
 # MIT License, see LICENSE for more details
 
+import os
 import json
 import requests
 import cv2
 import numpy as np
 import time
-from urllib.request import urlopen
+from urllib.request import urlopen, urlparse
 import base64
 
 API_URL = "https://hmnv-face-det.herokuapp.com/api/v1"
