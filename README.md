@@ -21,7 +21,7 @@ Sample JSON POST request to `/api/v1/detect`.
 }
 ``` 
 ## API Response Format
-FaceAPI response includes _bboxes of detected faces_, _total number of faces_ and _detection time_ (in milliseconds).
+FaceAPI response includes _boundry boxes of detected faces_, _total number of faces_ and _detection time_ (in milliseconds).
 ```json
 {
     "bboxes": [
