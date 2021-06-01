@@ -1,5 +1,5 @@
 aiohttp==3.3.2
-urllib3==1.25
+urllib3==1.26.5
 requests==2.21.0
 websockets==6.0
 opencv-python==3.4.2.17
