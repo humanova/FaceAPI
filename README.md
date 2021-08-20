@@ -4,7 +4,7 @@ Simple face detection API based on Flask and OpenCV.
 Using SSDNet DNN model to detect faces.
 
 ## Usage
-API expects an image URL or a base64 encoding.
+API expects an image URL or a base64 encoded image.
 
 Sample JSON POST request to `/api/v1/detect_url`.
 ```json
